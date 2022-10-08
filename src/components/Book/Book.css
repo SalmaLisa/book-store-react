@@ -1,0 +1,36 @@
+.single-book , .overlay{
+  box-shadow: 1px 4px 14px rgba(128, 128, 128, 0.384);
+  border-radius: 5px;
+  position: relative;
+  transition: transform .5s;
+}
+.single-book img{
+  width: 290px;
+  height: 330px;
+}
+.overlay{
+  width: 270px;
+  height: 330px;
+  background: black;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.book-info{
+  display: none;
+  position: absolute;
+  top:0;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.single-book:hover{
+  transform: translateY(-20px); 
+}
+.single-book:hover .overlay{
+  opacity: .7;
+}
+.single-book:hover .book-info{
+  display: block;
+}

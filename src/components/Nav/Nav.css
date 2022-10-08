@@ -1,0 +1,14 @@
+
+li a{
+  margin-right: 32px;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+li a:hover{
+  color: #2dd4bf;
+  
+}
+.active{
+  border-bottom: 4px solid #2dd4bf ;
+  color: #2dd4bf;
+}
